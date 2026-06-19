@@ -1,1 +1,1 @@
-console.log("Hello world!")
+const output = document.getElementById("");
