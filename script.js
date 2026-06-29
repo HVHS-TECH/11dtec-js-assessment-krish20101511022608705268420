@@ -7,11 +7,16 @@ let itemInput = document.gerElementById("itemChoice").value;
 let itemName = "";
 let itemPrice = 0;
 
-seeif (itemInput ==:1){
+seeif (itemInput = 1){
     itemName = "Redline T350 Turbocharger";
     itemPrice = $650
 
+    seeif(itemInput=2)
+
+
     
+
+
 
 
 
