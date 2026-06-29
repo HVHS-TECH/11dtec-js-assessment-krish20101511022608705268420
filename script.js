@@ -8,9 +8,11 @@ let itemName = "";
 let itemPrice = 0;
 
 (itemInput ==:1){
+    itemName = "Redline T350 Turbocharger";
+    itemPrice = $650
 
-    
-}
+
+
 
 
 
