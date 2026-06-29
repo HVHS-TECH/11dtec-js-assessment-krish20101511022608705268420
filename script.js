@@ -12,7 +12,8 @@ seeif (itemInput = 1){
     itemPrice = $650
 
     seeif(itemInput=2)
-
+    itemName = "Redline T650 Turbocharger";
+    itemPrice = $650
 
     
 
