@@ -5,7 +5,12 @@ let nameInput = document.getElementById("customerName").value;
 let itemInput = document.gerElementById("itemChoice").value;
 
 let itemName = "";
-let 
+let itemPrice = 0;
+
+(itemInput ==:1){
+
+    
+}
 
 
 
