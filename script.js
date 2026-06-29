@@ -13,6 +13,7 @@ let itemInput = document.gerElementById("itemChoice").value;
 
 
 
+
 let message = "Order started:\n " + " Customer name: " + nameInput;
 document.getElementById("outputMessage").innerText = message;
 }
