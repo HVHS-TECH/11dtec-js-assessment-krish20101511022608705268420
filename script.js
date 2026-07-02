@@ -7,32 +7,7 @@ let itemInput = document.gerElementById("itemChoice").value;
 let itemName = "";
 let itemPrice = 0;
 
-seeif (itemInput = 1){
-    itemName = "Redline T350 Turbocharger";
-    itemPrice = $650
-
-    seeif(itemInput=2)
-    itemName = "Redline T650 Turbocharger";
-    itemPrice = $1250
-    seeif(item=3)
-    itemName = "Redline T1000 Turbochager";
-    itemPrice = $2500
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 let message = "Order started:\n " + " Customer name: " + nameInput;
 document.getElementById("outputMessage").innerText = message;
-}
+}   
