@@ -29,6 +29,6 @@ margin 0 auto;
 .products-grid{
 display: grid;
 grid-template-columns: repeat(2,1fr);
-
-
+gap: 20px;
+width: 65px;
 }
