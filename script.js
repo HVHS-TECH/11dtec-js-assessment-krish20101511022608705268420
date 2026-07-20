@@ -40,4 +40,13 @@ let receiptOrder = "<h3>Recipt:</h3>" +
 "<p>3. Total Order Cost: $ " + currentTotal.toFixed(2) + "</p>" +
 "<p>4. Money Given: $" + payment.toFixed(2)+ "</p>" +
 "<p>5. Change: $" + totalChange.toFixed(2) + "</p>";
+
+document.getElementById("Recipt-box").innerHTML = ""
+}
+
+function clearAll(){
+currentTotal = 0;
+orderedItemsList = "";
+document.getElementById("orderItemsDisplay").innerHTML ="";
+document.getElementById("customerName").value = "";
 }
