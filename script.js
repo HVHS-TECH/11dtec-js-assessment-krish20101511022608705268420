@@ -2,7 +2,7 @@ let menuItems = [
 {name: "T200 Turbocharger", price: 600},
 {name:  "T400 Turbocharger", price: 1200},
 {name: "T600 Turbocharger", price: 1800},
-{name: "T200 Supercharger", price: 750}
+{name: "T200 Supercharger", price: 750},
 {name: "T400 Supercharger", price: 1350},
 
 ];
