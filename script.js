@@ -5,6 +5,7 @@ let menuItems = [
 {name: "T200 Supercharger", price: 750},
 {name: "T400 Supercharger", price: 1350},
 
+
 ];
 
 let currentTotal = 0;
