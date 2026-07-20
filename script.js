@@ -15,6 +15,7 @@ currentTotal = currentTotal + itemPrice;
 orderedItemsList = orderedItemsList + itemName + ": $" + itemPrice.toFixed(2) + "<br>";
 document.getElementById("orderItemsDisplay").innerHTML = orderedItemsList;
 }
+  
 function submitOrder(){
 let name = document.getElementById("customerName").value;
 let payment = Number(document,getElementById("moneyPaid").value);
