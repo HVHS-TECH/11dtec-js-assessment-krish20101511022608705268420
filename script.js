@@ -49,4 +49,6 @@ currentTotal = 0;
 orderedItemsList = "";
 document.getElementById("orderItemsDisplay").innerHTML ="";
 document.getElementById("customerName").value = "";
+document.getElementById("moneyPaid").value = "";
+document.getElementById("receipt-box").innerHTML = "";
 }
