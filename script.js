@@ -31,7 +31,6 @@ alert("Error: Not enough money provided!");
 return;
 }
 
-
 let totalChange = payment - currentTotal;
 
 let receiptOrder = "<h3>Recipt:</h3>" +
