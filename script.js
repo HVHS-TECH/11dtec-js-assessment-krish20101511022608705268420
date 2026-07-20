@@ -18,9 +18,20 @@ function submitOrder(){
 let name = document.getElementById("customerName").value;
 let payment = Number(document,getElementById("moneyPaid").value);
 
-if (name==="")
-alert("Please enter your name first.");
+if (name===""){
+alert("Please enter your name first!");
 return;
-
-
 }
+if (currentTotal===0){
+alert("Please add items to your order!");
+return;
+}
+if (payment < currentTotal){
+alert("Error: Not enough money provided!");
+return;
+}
+
+
+let totalChange = payment - currentTotal;
+
+Let recei
