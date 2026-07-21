@@ -4,7 +4,9 @@ let menuItems = [
 {name: "T600 Turbocharger", price: 1800},
 {name: "T200 Supercharger", price: 750},
 {name: "T400 Supercharger", price: 1350},
-
+{name: "T600 Supercharger", price: 2000},
+{name: "High perforamance Intercooler kit", price: 750},
+{name: "Performance Cold Air Intake", price: 140}
 
 ];
 
