@@ -21,7 +21,7 @@ let currentTotal = 0;
 let orderedItemsList = "";
 
 function addItem(itemName, itemPrice){
-currentTotal = currentTotal + itemPrice;
+currentTotal = currentTotal + (itemPrice);
 orderedItemsList += `${itemName}: $${Number(itemPrice).toFixed(2)}<br>`;
 document.getElementById("orderItemsDisplay").innerHTML = orderedItemsList;
 }
