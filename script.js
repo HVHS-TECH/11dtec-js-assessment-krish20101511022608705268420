@@ -28,7 +28,7 @@ document.getElementById("orderItemsDisplay").innerHTML = orderedItemsList;
   
 function submitOrder(){
 let name = document.getElementById("customerName").value;
-let payment = Number(document,getElementById("moneyPaid").value);
+let payment = Number(document.getElementById("moneyPaid").value);
 
 if (name===""){
 alert("Please enter your name first!");
