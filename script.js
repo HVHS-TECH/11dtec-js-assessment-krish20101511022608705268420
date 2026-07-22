@@ -52,7 +52,7 @@ let receiptOrder = "<h3>Recipt:</h3>" +
 "<p>4. Money Given: $" + payment.toFixed(2)+ "</p>" +
 "<p>5. Change: $" + totalChange.toFixed(2) + "</p>";
 
-document.getElementById("Recipt-box").innerHTML = ""
+document.getElementById("receipt").innerHTML = receiptOrder;
 }
 
 function clearAll(){
@@ -61,5 +61,5 @@ orderedItemsList = "";
 document.getElementById("orderItemsDisplay").innerHTML ="";
 document.getElementById("customerName").value = "";
 document.getElementById("moneyPaid").value = "";
-document.getElementById("receipt-box").innerHTML = "";
+document.getElementById("receipt").innerHTML = "";
 }
