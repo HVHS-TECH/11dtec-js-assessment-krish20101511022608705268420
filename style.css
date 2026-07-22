@@ -5,37 +5,29 @@ margin: 0px;
 padding: 20px;
 }
 
-.header-container{
-text-align: center ;
-margin-top: 0%;
-margin-bottom: 20px;
-width: 100%;
+.head-container{
+    text-align: center;
 }
 
 .store-logo{
-max-width: 350px;
-width: 100%;
-height: auto;
-display: inline-block;
+    width:250px;
 }
-
 .main-container{
 display: flex;
-gap: 20px
-max-width: 1200px;
-margin 0 auto;
+gap:20px;
 }
-
 .products-grid{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-gap: 20px;
-width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    width:60%;
 }
-
 .product-card{
-background-color: grey;
-text-align: center;
+    border:1px black;
+    padding: 10px;
 }
-
-
+.order-sidebar{
+    width: 40%;
+    border:1px black;
+    padding: 10px;
+}
