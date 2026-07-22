@@ -22,7 +22,7 @@ let orderedItemsList = "";
 
 function addItem(itemName, itemPrice){
 currentTotal = currentTotal + itemPrice;
-orderedItemsList = orderedItemsList + itemName + ": $" + itemPrice.toFixed(2) + "<br>";
+orderedItemsList += `${itemName}: $${Number(itemPrice).toFixed(2)}<br>`;
 document.getElementById("orderItemsDisplay").innerHTML = orderedItemsList;
 }
   
