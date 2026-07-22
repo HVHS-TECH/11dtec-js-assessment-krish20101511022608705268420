@@ -12,7 +12,7 @@ let menuItems = [
 {name: "Redline Performance Radiator", price: 300},
 {name: "High performance spark plugs", price: 50},
 {name: "high performance 2000hp fuel pump:", price: 400},
-{name: "High performance fuel injectors", price 200},
+{name: "High performance fuel injectors", price: 200},
 {name: "Boost tap", price: 50},
 {name: "Redline Performance ECU MXT6700", price: 1200},
 ];
