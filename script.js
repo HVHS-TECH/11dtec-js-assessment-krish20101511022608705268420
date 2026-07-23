@@ -1,6 +1,6 @@
 let menuItems = [
 {name: "T200 Turbocharger", price: 600},
-{name:  "T400 Turbocharger", price: 1200},
+{name: "T400 Turbocharger", price: 1200},
 {name: "T600 Turbocharger", price: 1800},
 {name: "T200 Supercharger", price: 600},
 {name: "T400 Supercharger", price: 1200},
@@ -12,9 +12,6 @@ let menuItems = [
 {name: "Redline Performance Radiator", price: 300},
 {name: "High performance spark plugs", price: 50},
 {name: "high performance 2000hp fuel pump:", price: 400},
-{name: "High performance fuel injectors", price: 200},
-{name: "Boost tap", price: 50},
-{name: "Redline Performance ECU MXT6700", price: 1200},
 ];
 
 let currentTotal = 0;
