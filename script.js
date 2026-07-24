@@ -7,11 +7,11 @@ let menuItems = [
 {name: "T600 Supercharger", price: 1800},
 {name: "High perforamance Intercooler kit", price: 750},
 {name: "Performance Cold Air Intake", price: 140},
-{name: "Carbon Exhaust tip", price:100},
+{name: "Carbon Exhaust Muffler", price:100},
 {name: "BOV(Blow off Valve)", price: 67},
 {name: "Redline Performance Radiator", price: 300},
 {name: "High performance spark plugs", price: 50},
-{name: "high performance 2000hp fuel pump:", price: 400},
+{name: "High performance 2000hp fuel pump:", price: 400},
 {name: "Spark plugs", price: 50},
 ];
 
