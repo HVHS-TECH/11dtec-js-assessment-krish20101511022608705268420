@@ -12,6 +12,7 @@ let menuItems = [
 {name: "Redline Performance Radiator", price: 300},
 {name: "High performance spark plugs", price: 50},
 {name: "high performance 2000hp fuel pump:", price: 400},
+{name: "Spark plugs", price: 50},
 ];
 
 let currentTotal = 0;
